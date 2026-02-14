@@ -1,0 +1,43 @@
+#nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 1) 1.95px 1.95px 2.6px;
+    padding: 0 2rem;
+    margin: 0 2rem;
+    border-radius: 30px;
+    
+}
+
+#logo{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+#nav-links{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link{
+    color: var(--text-color);
+}
+
+
+#user-icon{
+    font-size: 1.5rem;
+}
+
+
+
+
+.nav-link:hover{
+    color: var(--text-hover-color);
+}
+
+
+.nav-link:active{
+    color: var(--text-active-color);
+}
